@@ -5,3 +5,5 @@ name = input()
 print("hello",name)
 
 print()
+
+bob = "your mom"
