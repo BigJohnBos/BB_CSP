@@ -12,13 +12,20 @@ dan = 5
 
 print("the average age equals", (don + bob + joe + dan)/4)
 
-num_1 = 12
-num_2 = 7
+num_1 = int(input("Tell me a number:\n"))
+num_2 = float(input("Tell me another number:\n"))
+num_1 += num_2
 
-print("addition(+)", num_1+num_2 )
-print("subtraction(-)", num_1-num_2 )
-print("multiplication(*)", num_1*num_2 )
-print("division(/)", num_1/num_2 )
-print("exponents(**)", num_1**num_2 )
-print("intiger division(//)", num_1//num_2 )
-print("modulo(%)", num_1%num_2 )
+print("addition(+)", num_1)
+num_1 -= num_2
+print("subtraction(-)", num_1)
+num_1 *= num_2
+print("multiplication(*)", num_1)
+num_1 /= num_2
+print("division(/)", round(num_1, 2))
+num_1 **= num_2
+print("exponents(**)", num_1)
+num_1 //= num_2
+print("intiger division(//)", num_1)
+num_1 %= num_2
+print("modulo(%)", num_1)
