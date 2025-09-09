@@ -8,3 +8,4 @@ sentance = '    The quick brown fox jumps over the lazy dog   '
 
 print("Wlecome to my program", full_name + "!")
 print(sentance.strip())
+ddfd
