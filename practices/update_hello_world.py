@@ -1,7 +1,7 @@
 # BB 7th update hello world
 
 def welcome(name):
-    print(f"hello, {name}")
+    return print(f"hello, {name}")
 
 welcome(input("what is your name"))
 welcome("joe")
