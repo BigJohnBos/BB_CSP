@@ -1,7 +1,7 @@
 # BB 7th update finance calculator
 
 def money(expense):
-    return float(input("what is your monthly", expense))
+    return float(input(f"what is your monthly {expense}"))
 
 income = money("income")
 rent = money("rent")
