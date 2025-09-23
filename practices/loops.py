@@ -31,7 +31,7 @@ for x in range(1,21):
         #print(f"{x} is an odd number")
     #x += 1
 
-#import random
+import random
 
 d = 1
 end = random.randint(1,20)
