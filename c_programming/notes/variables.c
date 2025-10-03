@@ -2,14 +2,21 @@
 #include <stdio.h>
 
 int main(void){
-    int grade = 95; 
-    float pi = 3.14;
+    int grade; 
+    const float pi = 3.14;
     double long_pi = 3.141596258;
-    char letter_grade = 'a';
+    char letter_grade;
     char name[] = "Boston";
 
-    printf("%s did it", name);
-    printf("You have a %d, in the class. that is a %c", grade, letter_grade);
+    //User input
+    printf("what is your grade percentage as a whole: ");
+    scanf("%d", &grade);
+
+    printf("what is your letter grade ");
+    scanf(" %c", &letter_grade);
+
+    printf("%s did it\n", name);
+    printf("You have a %d, in the class. that is an %c\n", grade, letter_grade);
 
     return 0;
 }
