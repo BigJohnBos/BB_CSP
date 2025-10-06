@@ -6,12 +6,15 @@ int main(void){
     const float pi = 3.14;
     double long_pi = 3.141596258;
     char letter_grade;
-    char name[] = "Boston";
+    char name[50];
 
+    printf("what is your name:\n");
+    fgets(name, sizeof(name), stdin);
+    
     //User input
     printf("what is your grade percentage as a whole: ");
     scanf("%d", &grade);
-
+    
     printf("what is your letter grade ");
     scanf(" %c", &letter_grade);
 
